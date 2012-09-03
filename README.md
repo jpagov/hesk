@@ -19,6 +19,11 @@ Extract all content to `language` folder on your HESK root.
 Authors
 -------
 
+**Public Service Department**
+
++ http://twitter.com/jpagov
++ http://github.com/jpagov
+
 **Hariadi Hinta**
 
 + http://twitter.com/hariadi
