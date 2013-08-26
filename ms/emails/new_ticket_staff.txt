@@ -1,0 +1,15 @@
+Salam 1Malaysia,
+
+Satu tiket maklum balas baru telah dihantar. Butiran Tiket:
+
+Subjek tiket: %%SUBJECT%%
+Tracking ID: %%TRACK_ID%%
+
+Anda boleh menguruskan tiket ini di sini:
+%%TRACK_URL%%
+
+
+Sekian, terima kasih.
+
+%%SITE_TITLE%%
+%%SITE_URL%%

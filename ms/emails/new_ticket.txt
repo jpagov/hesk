@@ -1,0 +1,22 @@
+Salam 1Malaysia,
+
+%%NAME%%,
+
+Tiket maklum balas anda, "%%SUBJECT%%" telah dihantar.
+
+We reply to all tickets as soon as possible, within 24 to 48 hours. If we expect your ticket will take additional time, we will update you by sending you an email.
+
+Pihak kami membalas semua tiket secepat mungkin, dalam tempoh 24 hingga 48 jam. Kami akan memaklumkan kepada anda melalui emel sekiranya tiket tersebut memerlukan masa untuk dijawab.
+
+ID Tiket Maklum Balas: %%TRACK_ID%%
+
+Anda boleh melihat status tiket anda di sini:
+%%TRACK_URL%%
+
+Anda akan menerima pemberitahuan e-mel apabila petugas kami membalas tiket anda.
+
+
+Sekian, terima kasih.
+
+%%SITE_TITLE%%
+%%SITE_URL%%

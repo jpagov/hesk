@@ -1,0 +1,14 @@
+Salam 1Malaysia,
+
+Anda telah menerima mesej baru dari %%NAME%% dengan subjek berikut:
+
+%%SUBJECT%%
+
+Anda boleh melihat mesej baru tersebut melalui pautan berikut:
+%%TRACK_URL%%
+
+
+Sekian, terima kasih.
+
+%%SITE_TITLE%%
+%%SITE_URL%%
