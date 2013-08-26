@@ -1,12 +1,15 @@
 <?php
 /*
 * Language file for Help Desk Software HESK (www.hesk.com)
-* Language: MALAY
-* Version: 2.4
-* Author: Hariadi Hinta (http://www.hariadi.org)
+* Language: ENGLISH
+* Version: 2.5.0
+* Author: Klemen Stirn (http://www.hesk.com)
+*
+* !!! This file must be saved in UTF-8 encoding without byte order mark (BOM) !!!
+* Test chars: àáâãäåæ 
 */
 
-/* Change the language name and encoding to your own language */
+// Change "English" to the name of your language
 $hesklang['LANGUAGE']='Malay';
 
 // Language encoding. It MUST be set to UTF-8 for all languages!
@@ -48,7 +51,6 @@ $hesklang['int_error']='Kesilapan skrip dalaman';
 $hesklang['no_trackID']='No tracking ID';
 $hesklang['status_not_valid']='Status tidak sah';
 $hesklang['trackID_not_found']='Tracking ID tidak ditemui';
-$hesklang['enter_message']='Sila masukkan mesej an';
 $hesklang['select_priority']='Sila pilih keutamaan';
 $hesklang['ticket_not_found']='Tiket tidak dijumpai! Sila pastikan anda telah memasukkan tracking ID yang betul!';
 $hesklang['no_selected']='Tiada tiket yang dipilih, tiada sebarang perubahan';
@@ -102,7 +104,6 @@ $hesklang['name']='Nama';
 $hesklang['subject']='Subjek';
 $hesklang['status']='Status';
 $hesklang['priority']='Keutamaan';
-$hesklang['open']='Belum selesai'; // Open STATUS
 $hesklang['open_action']='Open ticket'; // Open ACTION
 $hesklang['close']='Batal'; // Closed ticket STATUS
 $hesklang['any_status']='Semua status';
@@ -117,7 +118,7 @@ $hesklang['sort_by']='Susun mengikut';
 $hesklang['date_posted']='Tarik dihantar';
 $hesklang['category']='Kategori';
 $hesklang['any_cat']='Semua kategori';
-$hesklang['order']='Order';
+$hesklang['order']='Turutan';
 $hesklang['ascending']='menaik';
 $hesklang['descending']='menurun';
 $hesklang['display']='Papar';
@@ -126,7 +127,6 @@ $hesklang['find_ticket']='Cari tiket';
 $hesklang['yyyy_mm_dd']='YYYY-MM-DD';
 $hesklang['results_page']='keputusan per halaman';
 $hesklang['opened']='dibuka'; // The ticket has been OPENED
-$hesklang['closed']='ditutup'; // The ticked has been CLOSED
 $hesklang['ticket']='Tiket';
 $hesklang['tickets']='Tiket';
 $hesklang['ticket_been']='Tiket ini telah';
@@ -135,7 +135,6 @@ $hesklang['open_tickets']='Papar tiket';
 $hesklang['remove_statement']='Remove &quot;Powered by&quot; statement';
 $hesklang['click_info']='Click here for more info';
 $hesklang['reply_added']='Balasan ditambah';
-$hesklang['reply_submitted']='Balasan anda telah dihantar';
 $hesklang['ticket_marked']='Tiket ini telah ditanda';
 $hesklang['ticket_status']='Status tiket';
 $hesklang['replies']='Balasan';
@@ -210,7 +209,6 @@ $hesklang['end_ticket']='--- End of ticket ---';
 
 // CUSTOMER INTERFACE
 $hesklang['your_ticket_been']='Tiket anda telah';
-$hesklang['view_your_ticket']='Lihat tiket anda';
 $hesklang['submit_ticket']='Hantar tiket';
 $hesklang['sub_ticket']='Hantar tiket';
 $hesklang['before_submit']='Sebelum menghantar pastikan perkara berikut';
@@ -225,6 +223,8 @@ $hesklang['reply_submitted_success']='Balasan anda untuk tiket maklum balas ini 
 $hesklang['view_your_ticket']='Lihat tiket maklum balas anda';
 $hesklang['ticket_submitted']='Tiket dihantar';
 $hesklang['ticket_submitted_success']='Tiket anda telah berjaya dihantar! Sila simpan kod Tiket ID maklum balas berikut';
+$hesklang['ticket_submitted_note_title']='Nota';
+$hesklang['ticket_submitted_note']='Maklum balas anda akan dijawab dalam masa 3 hari bekerja.';
 $hesklang['your_ticket']='Tiket anda';
 
 // ADDED IN HESK VERSION 0.94
@@ -239,12 +239,11 @@ $hesklang['closed']='Selesai';
 $hesklang['last_replier']='Balasan terakhir';
 $hesklang['staff']='Staff';
 $hesklang['customer']='Customer';
-$hesklang['close_selected']='Mark selected tickets Resolved';
+$hesklang['close_selected']='Tandakan tiket yang dipilih sebagai Selesai';
 $hesklang['execute']='Execute';
 $hesklang['saved_replies']='Balasan ulangan';
 $hesklang['manage_saved']='Balasan ulangan';
 $hesklang['manage_intro']='Bagi mengelakkan sering menjawab soalan yang sama berulang kali, disini anda boleh mmenambah dan menetapkan balasan ulangan yang digunakan untuk membalas maklum balas yang sama atau lebih kurang sama bagi setiap pelanggan.';
-$hesklang['saved_title']='Canned response title';
 $hesklang['no_saved']='No canned responses';
 $hesklang['delete_saved']='Are you sure you want to delete this canned response?';
 $hesklang['new_saved']='Tambah atau kemaskini balasan ulangan';
@@ -260,9 +259,8 @@ $hesklang['saved_removed']='Balasan ulangan dihapus';
 $hesklang['saved_rem_full']='Selected canned response has been removed from the database';
 $hesklang['clip_alt']='Pos ini mengandungi lampiran';
 $hesklang['attachments']='Lampiran';
-$hesklang['fill_all']='Ruangan mandatori';
+$hesklang['fill_all']='Missing required field';
 $hesklang['file_too_large']='Fail anda %s melebihi saiz dibenarkan';
-$hesklang['cannot_move_tmp']='Cannot move file to the attachments folder, please check your server path settings';
 $hesklang['created_on']='Created on';
 $hesklang['tickets_closed']='Tickets closed';
 $hesklang['num_tickets_closed']='<b>%d</b> tickets have been closed';
@@ -299,19 +297,16 @@ $hesklang['custom_f']='Custom field';
 $hesklang['custom_u']='Use this field';
 $hesklang['custom_n']='Field name';
 $hesklang['custom_l']='Maximum length (chars)';
-$hesklang['hesk_path']='System/root path';
 $hesklang['db_host']='Database host';
 $hesklang['db_name']='Database name';
 $hesklang['db_user']='Database username';
 $hesklang['db_pass']='Database password';
 $hesklang['err_sname']='Please enter your website title';
 $hesklang['err_surl']='Please enter your website URL. Make sure it is a valid URL (start with http:// or https://)';
-$hesklang['err_supmail']='Please enter a valid support email';
 $hesklang['err_wmmail']='Please enter a valid webmaster email';
 $hesklang['err_nomail']='Please enter a valid noreply email';
 $hesklang['err_htitle']='Please enter the title of your support desk';
 $hesklang['err_hurl']='Please enter your Hesk folder url. Make sure it is a valid URL (start with http:// or https://)';
-$hesklang['err_spath']='Please enter the system (root, server) path to Hesk folder';
 $hesklang['err_lang']='Please select Hesk language';
 $hesklang['err_nolang']='The language file specified doesn\'t exist in the language folder! Make sure the file is uploaded before changing the language setting.';
 $hesklang['err_max']='Please enter maximum listings displayed per page';
@@ -320,14 +315,13 @@ $hesklang['err_dbhost']='Please enter your MySQL database host';
 $hesklang['err_dbname']='Please enter your MySQL database name';
 $hesklang['err_dbuser']='Please enter your MySQL database username';
 $hesklang['err_dbpass']='Please enter your MySQL database password';
-$hesklang['err_dbconn']='Could not connect to MySQL database using provided information! Please double-check your database settings';
 $hesklang['err_dbsele']='Could not select MySQL database, please double-check database NAME';
 $hesklang['err_custname']='Please enter name(s) for selected optional field(s)';
 $hesklang['err_openset']='Can\'t open file <b>hesk_settings.inc.php</b> for writing. Please CHMOD this file to 666 (rw-rw-rw-)';
 $hesklang['set_saved']='Settings saved';
 $hesklang['set_were_saved']='Your settings have been successfully saved';
 $hesklang['sec_img']='Security image';
-$hesklang['sec_miss']='Sila masukkan nombor sekuriti';
+$hesklang['sec_miss']='Please enter the security number';
 $hesklang['sec_wrng']='Wrong security number';
 $hesklang['submit_problems']='Please go back and correct the following problems';
 $hesklang['cat_order']='Category order';
@@ -349,7 +343,7 @@ $hesklang['writable']='Writable';
 $hesklang['not_writable']='Not writable';
 $hesklang['disabled']='disabled';
 $hesklang['e_settings']='You will not be able to save your settings unless this file is writable by the script. Please refer to the readme file for further instructions!';
-$hesklang['e_attdir']='You will not be able to file attachments unless this exists and is writable by the script. Please refer to the readme file for further instructions!';
+$hesklang['e_attdir']='You will not be able to use file attachments unless the attachments folder exists and is writable by the script.';
 $hesklang['e_save_settings']='Unable to save your settings because <b>hesk_settings.inc.php</b> file is not writable by the script.';
 $hesklang['e_attach']='Disabled because your <b>attachments</b> directory is not writable by the script.';
 $hesklang['go']='Pergi';
@@ -444,13 +438,13 @@ $hesklang['kb_art_edit']='Edit article';
 $hesklang['revhist']='Revision history';
 $hesklang['revision1']='<li class="smaller">On %s submitted by %s</li>';
 $hesklang['revision2']='<li class="smaller">On %s modified by %s</li>';
-$hesklang['kb_order']='Order';
+$hesklang['kb_order']='Turutan';
 $hesklang['kb_delcat']='Are you sure you want to delete this category?';
 $hesklang['kb_cat_mod']='Category modified';
 $hesklang['your_cat_mod']='Your changes to the selected category have been saved successfully';
 $hesklang['kb_cat_del']='Knowledgebase category deleted';
 $hesklang['kb_cat_dlt']='The selected knowledgebase category has been deleted.';
-$hesklang['allowed_cat']='Kategori';
+$hesklang['allowed_cat']='Categories';
 $hesklang['allow_feat']='Features';
 $hesklang['can_view_tickets']='View tickets';
 $hesklang['can_reply_tickets']='Reply to tickets';
@@ -570,7 +564,7 @@ $hesklang['repd']='Post deleted';
 $hesklang['repl']='Selected post has been deleted';
 $hesklang['tickets_found']='Search results';
 $hesklang['al']='Admin link';
-$hesklang['ap']='Pentadbiran';
+$hesklang['ap']='Go to Administration Panel';
 $hesklang['dap']='Display a link to admin panel from <a href="../" target="_blank">help desk index</a>';
 $hesklang['q_miss']='Sila lengkapkan soalan anti-SPAM';
 $hesklang['use_q']='Gunakan soalan anti-SPAM';
@@ -608,7 +602,6 @@ $hesklang['hesk_lang']='Default Language';
 $hesklang['s_mlang']='Multiple languages';
 $hesklang['s_mlange']='Enable only if you provide support in all installed languages!';
 $hesklang['s_inl']='Test language folder';
-$hesklang['s_inle']='Testing the language folder for valid languages. Only languages that pass all tests are properly installed. For language installation instructions and help with errors see the <b>readme.html</b> file!';
 $hesklang['ta']='Test again';
 $hesklang['alo']='Allow automatic login';
 $hesklang['chol']='Preferred Language';
@@ -632,8 +625,6 @@ $hesklang['id']='ID';
 $hesklang['geco']='Generate Direct Link';
 $hesklang['genl']='Direct Category Link';
 $hesklang['genl2']='Use this link to preselect category in the &quot;Submit a ticket&quot; form.';
-$hesklang['ask']='Ask a question:';
-$hesklang['shlp']='Search Help';
 $hesklang['exa']='Examples';
 $hesklang['small']='Small Box';
 $hesklang['large']='Large Box';
@@ -647,7 +638,6 @@ $hesklang['asss']='Assign to self';
 $hesklang['asss2']='Rujuk maklum balas ini kepada saya';
 $hesklang['can_assign_self']='Can assign tickets to self';
 $hesklang['can_assign_others']='Can assign tickets to others';
-$hesklang['can_run_reports']='Can run reports';
 $hesklang['can_view_ass_others']='Can view tickets assigned to others';
 $hesklang['unoa']='Selected user doesn\'t have access to this category';
 $hesklang['tasi']='Owner Assigned';
@@ -714,6 +704,8 @@ $hesklang['ca04']='Next Year';
 $hesklang['ca05']='Close Calendar';
 $hesklang['cdr']='Pilih tarikh:';
 $hesklang['crt']='Pilih jenis maklum balas:';
+$hesklang['frpt']='Tapis laporan:';
+$hesklang['frptn']='Tiada';
 $hesklang['r1']='Hari ini';
 $hesklang['r2']='Semalam';
 $hesklang['r3']='Bulan ini';
@@ -789,18 +781,11 @@ $hesklang['tunlock']='Ticket has been unlocked';
 $hesklang['tislock']='This ticket has been locked, the customer will not be able to post a reply.';
 $hesklang['tislock2']='This ticket has been locked, you cannot post a reply.';
 $hesklang['nsfo']='No relevant articles found.';
-$hesklang['thist1']='<li class="smaller">On %s moved to category %s by %s</li>';
-$hesklang['thist2']='<li class="smaller">On %s assigned to %s by %s</li>';
-$hesklang['thist3']='<li class="smaller">On %s closed by %s</li>';
-$hesklang['thist4']='<li class="smaller">On %s opened by %s</li>';
-$hesklang['thist5']='<li class="smaller">On %s locked by %s</li>';
-$hesklang['thist6']='<li class="smaller">On %s unlocked by %s</li>';
-$hesklang['thist7']='<li class="smaller">On %s ticket created by %s</li>';
 $hesklang['elocked']='This ticket has been locked or deleted.';
 $hesklang['nti']='+ tiket maklum balas baru';
 $hesklang['nti2']='Insert a new ticket';
 $hesklang['nti3']='Use this form to create a new ticket in a customer\'s name. Enter <i>customer</i> information in the form (customer name, customer email, ...) and NOT your name! Ticket will be created as if the customer submitted it.';
-$hesklang['addop']='Options';
+$hesklang['addop']='Pilihan';
 $hesklang['seno']='Send email notification to the customer';
 $hesklang['otas']='Show the ticket after submission';
 $hesklang['notn']='Notifications';
@@ -817,15 +802,15 @@ $hesklang['auto']='(automatically)';
 
 // Added or modified in version 2.3
 $hesklang['unknown']='Unknown';
-$hesklang['pcer']='Sila semak berdasarkan ralat dibawah:';
+$hesklang['pcer']='Please correct the following errors:';
 $hesklang['seqid']='Nombor Tiket';
 $hesklang['close_action']='Tandakan Selesai'; // Close ACTION
 $hesklang['archived']='Tagged';
 $hesklang['archived2']='Tagged Ticket';
 $hesklang['add_archive']='Tag this ticket';
-$hesklang['add_archive_quick']='Tag selected tickets';
-$hesklang['remove_archive']='Untag this ticket';
-$hesklang['remove_archive_quick']='Untag selected tickets';
+$hesklang['add_archive_quick']='Tag tiket yang dipilih';
+$hesklang['remove_archive']='Untag tiket ini';
+$hesklang['remove_archive_quick']='Untag tiket yang dipilih';
 $hesklang['added_archive']='Ticket Tagged';
 $hesklang['removed_archive']='Ticket Untagged';
 $hesklang['added2archive']='Ticket has been tagged';
@@ -833,13 +818,9 @@ $hesklang['removedfromarchive']='Ticket has been untagged';
 $hesklang['num_tickets_tag']='<b>%d</b> tickets have been tagged';
 $hesklang['num_tickets_untag']='<b>%d</b> tickets have been untagged';
 $hesklang['can_add_archive']='Can tag tickets';
-$hesklang['disp_only_archived']='Only tagged tickets';
-$hesklang['search_only_archived']='Only tagged tickets';
+$hesklang['disp_only_archived']='Hanya tiket yang ditag';
+$hesklang['search_only_archived']='Hanya tiket yang ditag';
 $hesklang['critical']=' * Critical * ';
-$hesklang['thist8']='<li class="smaller">On %s priority changed to %s by %s</li>';
-$hesklang['thist9']='<li class="smaller">On %s status changed to %s by %s</li>';
-$hesklang['thist10']='<li class="smaller">On %s automatically assigned to %s</li>';
-$hesklang['thist11']='<li class="smaller">On %s submitted by email piping</li>';
 // START abbreviatons used in "last updated" column
 $hesklang['abbr']['year']='y';
 $hesklang['abbr']['month']='mo';
@@ -854,7 +835,7 @@ $hesklang['yhbb']='You have been locked out the system for %s minutes because of
 $hesklang['pwdst']='Password Strength';
 $hesklang['tid_mail']='Masukkan alamat emel dan kami akan menghantarkan tiket ID anda:';
 $hesklang['rem_email']='Ingatkan alamat emel saya';
-$hesklang['eytid']='Masukkan ID tiket anda.';
+$hesklang['eytid']='Enter your ticket tracking ID.';
 $hesklang['enmdb']='The email address you entered doesn\'t match the one in the database for this ticket ID.';
 $hesklang['confemail']='Pengesahan Emel';
 $hesklang['confemail2']='Sila sahkan alamat emel anda';
@@ -864,11 +845,11 @@ $hesklang['sec_enter']='Masukkan nombor yang anda lihat pada gambar dibawah.';
 $hesklang['reload']='Segarkan imej';
 $hesklang['verify_q']='Pencegahan SPAM:'; // For anti-spam question
 $hesklang['verify_i']='Pencegahan SPAM:'; // For anti-spam image (captcha)
-$hesklang['admin_login']='Daftar masuk pegawai';
+$hesklang['admin_login']='Staff login';
 $hesklang['vrfy']='Test passed';
-$hesklang['last_update']='Updated';
+$hesklang['last_update']='Kemaskini';
 $hesklang['cot']='Don\'t force Critical tickets on top';
-$hesklang['def']='Make this my default view';
+$hesklang['def']='Jadikan paparan lalai saya';
 $hesklang['gbou']='These tickets are <b>Unassigned</b>:';
 $hesklang['gbom']='Tickets assigned to <b>me</b>:';
 $hesklang['gboo']='Tickets assigned to <b>%s</b>:';
@@ -953,7 +934,6 @@ $hesklang['sme']='Ralat SMTP';
 $hesklang['scl']='SMTP connection log';
 $hesklang['dnl']='Muat turun';
 $hesklang['dela']='Hapus lampiran ini';
-$hesklang['pda']='Anda pasti untuk menghapuskan lampiran ini?';
 $hesklang['thist12']='<li class="smaller">Pada %s lampiran %s dihapus oleh %s</li>';
 $hesklang['mopt']='More options';
 $hesklang['lopt']='Less options';
@@ -968,9 +948,9 @@ $hesklang['maxopen']='You have reached maximum open tickets (%d of %d). Please w
 $hesklang['ntnote']='Someone adds a note to a ticket assigned to me';
 $hesklang['cat_public']='This category is PUBLIC (click to make private)';
 $hesklang['cat_private']='This category is PRIVATE (click to make public)';
-$hesklang['cat_aa']='Auto-assign tickets in this category.';
-$hesklang['cat_type']='Make this category private (only staff can select it).';
-$hesklang['caaon']='Auto-assign has been enabled for selected category';
+$hesklang['cat_aa']='Rujuk secara automatik tiket dalam kategori ini.';
+$hesklang['cat_type']='Jadikan kategori ini private (hanya petugas boleh pilih).';
+$hesklang['caaon']='Rujukan automatik telah dihidupkan bagi kategori yang dipilih.';
 $hesklang['caaoff']='Auto-assign has been disabled for selected category';
 $hesklang['cpub']='Category type changed to PUBLIC';
 $hesklang['cpriv']='Category type changed to PRIVATE';
@@ -1006,8 +986,8 @@ $hesklang['artd']='Article drafts';
 $hesklang['kb_no_part']='No private articles in the knowledgebase.';
 $hesklang['kb_no_dart']='No article drafts in the knowledgebase.';
 $hesklang['attpri']='You don\'t have access to this attachment.';
-$hesklang['can_merge_tickets']='Merge tickets';
-$hesklang['mer_selected']='Merge selected tickets';
+$hesklang['can_merge_tickets']='Gabung tiket';
+$hesklang['mer_selected']='Gabung tiket yang dipilih';
 $hesklang['merged']='Selected tickets have been merged into one.';
 $hesklang['merge_err']='There was a problem merging tickets:';
 $hesklang['merr1']='select at least two tickets.';
@@ -1036,21 +1016,15 @@ $hesklang['hh']='Jam';
 $hesklang['mm']='Minit';
 $hesklang['ss']='Saat';
 $hesklang['thist']='Sejarah tiket';
-$hesklang['thist13']='<li class="smaller">Pada %s digabung dengan tiket %s oleh %s</li>';
-$hesklang['thist14']='<li class="smaller">Pada %s masa kerja dikemaskini ke %s oleh %s</li>';
-$hesklang['thist15']='<li class="smaller">Pada %s dihantar oleh %s</li>';
-$hesklang['thist16']='<li class="smaller">Pada %s dihantar oleh POP3 fetching</li>';
 $hesklang['twu']='Time worked on ticket has been updated.';
 $hesklang['autoss']='Automatically start timer when I open a ticket';
 $hesklang['ful']='Saiz maksimum';
 $hesklang['ufl']='Fail lampiran mungkin berakhir dengan:';
 $hesklang['nat']='Maksimum lampiran:';
 $hesklang['mfs']='Saiz maksimum bagi setiap lampiran:';
-$hesklang['mfs']='Saiz maksimum bagi setiap lampiran:';
 $hesklang['lps']='Your language preference has been saved';
 $hesklang['sav']='Show article views';
 $hesklang['sad']='Show article date';
-$hesklang['emp']='Enable MySQL in your PHP settings!';
 $hesklang['epd']='[HESK] EMAIL PIPING IS DISABLED IN SETTINGS';
 $hesklang['pfd']='[HESK] POP3 FETCHING IS DISABLED IN SETTINGS';
 $hesklang['pem']='[Piped email]'; // Default subject of piped tickets without subject
@@ -1108,7 +1082,106 @@ $hesklang['getup']='Update HESK';
 $hesklang['updates']='Updates';
 $hesklang['updates2']='Automatically check for HESK updates.';
 
-/* Added or modified in version 2.4.1 for Public Department Service */
+
+// Added or modified in version 2.5.0
+$hesklang['emp']='Your PHP does not have MySQL support enabled (mysqli extension required)';
+$hesklang['attdel']='This file has been deleted from the server and is no longer available for download';
+$hesklang['cannot_move_tmp']='Cannot move file to the attachments folder';
+$hesklang['dsen']='Don\'t send email notification of this reply to the customer';
+$hesklang['attrem']='* Some attached files have been removed *';
+$hesklang['attnum']='Max number reached: %s'; // %s will show attachment name
+$hesklang['attsiz']='File too large: %s'; // %s will show attachment name
+$hesklang['atttyp']='Type not allowed: %s'; // %s will show attachment name
+$hesklang['adf']='Admin folder';
+$hesklang['atf']='Attachments folder';
+$hesklang['err_adf']='The selected admin folder (%s) does not exist!'; // %s will show folder name
+$hesklang['err_atf']='The selected attachments folder (%s) does not exist!'; // %s will show folder name
+$hesklang['err_atr']='The selected attachments folder (%s) is not writable!'; // %s will show folder name
+$hesklang['fatt']='Files attached to this message:';
+$hesklang['wrepo']='Please write a reply after re-opening the ticket.';
+$hesklang['ktool']='&raquo; Knowledgebase tools';
+$hesklang['uac']='Verify and update category article count';
+$hesklang['acv']='Article count has been verified';
+$hesklang['xyz']='number of public, private and draft articles in category.';
+$hesklang['reports_tab']='Run reports'; // Tab title
+$hesklang['crt']='Report type';
+$hesklang['can_run_reports']='Can run reports (own)';
+$hesklang['can_run_reports_full']='Can run reports (all)';
+$hesklang['can_export']='Can export tickets';
+$hesklang['roo']='<i>(only tickets assigned to you are included in the report)</i>';
+$hesklang['shu']='Short links';
+$hesklang['export']='Export tickets'; // Tab title
+$hesklang['export_btn']='Export tickets'; // Button title
+$hesklang['export_intro']='This tool allows you to export tickets into an XML spreadsheet that can be opened in Excel.';
+$hesklang['stte']='Select tickets to export';
+$hesklang['dtrg']='Date range';
+$hesklang['sequentially']='Sequentially'; // Order tickets: Sequentially
+$hesklang['ede']='Cannot create export directory, please manually create a folder called <b>export</b> inside your attachments folder and make sure it is writable by PHP (on Linux CHMOD it to 777 - rwxrwxrwx).';
+$hesklang['eef']='Cannot create export file, no permission to write inside the export directory.';
+$hesklang['inite']='Initializing export';
+$hesklang['gXML']='Generating XML file';
+$hesklang['nrow']='Number of rows exported: %d'; // %d will show number of rows exported
+$hesklang['cZIP']='Compressing file into a Zip archive';
+$hesklang['eZIP']='Error creating Zip archive';
+$hesklang['fZIP']='Finished compressing the file';
+$hesklang['pmem']='Peak memory usage: %.2f Mb'; // %.2f will be replaced with number of Mb used
+$hesklang['ch2d']='&raquo; CLICK HERE TO DOWNLOAD THE EXPORT FILE &laquo;';
+$hesklang['n2ex']='No tickets found matching your criteria, nothing to export!';
+$hesklang['sp']='SPAM Prevention'; // For settings page
+$hesklang['sit']='-&gt; Image Type';
+$hesklang['sis']='Simple image';
+$hesklang['sir']='ReCaptcha';
+$hesklang['rcpb']='Public key';
+$hesklang['rcpv']='Private key';
+$hesklang['rcsl']='Use SSL';
+$hesklang['pop3keep']='Keep a copy';
+$hesklang['err_dbconn']='Could not connect to MySQL database using provided information!';
+$hesklang['s_inle']='Testing the language folder for valid languages. Only languages that pass all tests are properly installed.';
+$hesklang['ask']='Search help:';
+$hesklang['beta']='(TEST VERSION)';
+$hesklang['maxpost']='You probably tried to submit more data than this server accepts.<br /><br />Please try submitting the form again with smaller or no attachments.';
+
+// --> Ticket history log
+// Unless otherwise specified, first %s will be replaced with date and second with name/username
+$hesklang['thist1']='<li class="smaller">%s | moved to category %s by %s</li>'; // %s = date, new category, user making change
+$hesklang['thist2']='<li class="smaller">%s | assigned to %s by %s</li>'; // %s = date, assigned user, user making change
+$hesklang['thist3']='<li class="smaller">%s | closed by %s</li>';
+$hesklang['thist4']='<li class="smaller">%s | opened by %s</li>';
+$hesklang['thist5']='<li class="smaller">%s | locked by %s</li>';
+$hesklang['thist6']='<li class="smaller">%s | unlocked by %s</li>';
+$hesklang['thist7']='<li class="smaller">%s | ticket created by %s</li>';
+$hesklang['thist8']='<li class="smaller">%s | priority changed to %s by %s</li>'; // %s = date,new priority, user making change
+$hesklang['thist9']='<li class="smaller">%s | status changed to %s by %s</li>'; // %s = date, new status, user making change
+$hesklang['thist10']='<li class="smaller">%s | automatically assigned to %s</li>';
+$hesklang['thist11']='<li class="smaller">%s | submitted by email piping</li>';
+$hesklang['thist12']='<li class="smaller">%s | attachment %s deleted by %s</li>'; // %s = date, deleted attachment, user making change
+$hesklang['thist13']='<li class="smaller">%s | merged with ticket %s by %s</li>'; // %s = date, merged ticket ID, user making change
+$hesklang['thist14']='<li class="smaller">%s | time worked updated to %s by %s</li>'; // %s = date, new time worked, user making change
+$hesklang['thist15']='<li class="smaller">%s | submitted by %s</li>';
+$hesklang['thist16']='<li class="smaller">%s | submitted by POP3 fetching</li>';
+
+// --> Knowledgebase articles log
+// First %s will be replaced with date and second with user making changes
+$hesklang['revision1']='<li class="smaller">%s | submitted by %s</li>';
+$hesklang['revision2']='<li class="smaller">%s | modified by %s</li>';
+
+// --> Text used by ReCaptcha
+$hesklang['visual_challenge']='Get a visual challenge';
+$hesklang['audio_challenge']='Get an audio challenge';
+$hesklang['refresh_btn']='Get a new challenge';
+$hesklang['instructions_visual']='Type the two words:';
+$hesklang['instructions_context']='Type the words in the boxes:';
+$hesklang['instructions_audio']='Type what you hear:';
+$hesklang['help_btn']='Help';
+$hesklang['play_again']='Play sound again';
+$hesklang['cant_hear_this']='Download sound as MP3';
+$hesklang['incorrect_try_again']='Incorrect. Try again.';
+$hesklang['image_alt_text']='reCAPTCHA challenge image';
+$hesklang['recaptcha_error']='Incorrect SPAM Prevention answer, please try again.';
+
+/* Custom in version 2.5.1 for Public Department Service */
+$hesklang['site_title']='Jabatan Perkhidmatan Awam';
+$hesklang['sub_title']='Sistem Maklum Balas JPA';
 $hesklang['notify1']='<strong>Jabatan Perkhidmatan Awam</strong> mengalu-alukan maklum balas, Cadangan dan Pertanyaan mengenai perkara-perkara berikut :-';
 $hesklang['notify2']='<a href="http://www.jpapencen.gov.my/faq.html">Faedah Persaraan dan Pembayaran Pencen (Pencen, Ganjaran, Pencen Terbitan Pencen Tanggungan serta Kemudahan Rawatan dan Perubatan)</a>';
 $hesklang['notify3']='<a href="http://www.jpa.gov.my/index.php?option=com_content&amp;view=category&amp;id=64&amp;Itemid=96">Program Penajaan Pra dan dalam Perkhidmatan (Biasiswa & Pinjaman)</a>';
@@ -1118,7 +1191,7 @@ $hesklang['notify6']='<a href="http://www.jpa.gov.my/index.php?option=com_conten
 $hesklang['notify7']='Perkhidmatan Psikologi, Kaunseling dan Rundingcara';
 $hesklang['notify8']='Hal-hal lain yang berkaitan dengan Fungsi, Peranan, Tanggungjawab dan Perkhidmatan oleh JPA. Sila rujuk <a href="http://www.jpa.gov.my/index.php?option=com_content&amp;view=article&amp;id=246&amp;Itemid=26">Maklumat Korporat</a>, <a href="http://www.jpa.gov.my/index.php?option=com_content&amp;view=article&amp;id=250&amp;Itemid=60">Program-program dan Bahagian-bahagian di JPA</a> untuk kepastian.';
 $hesklang['notify9']='Untuk pertanyaan mengenai prosedur untuk memohon kursus dan program-program latihan INTAN, sila terus ke laman <a href="http://www.intanbk.intan.my">www.intanbk.intan.my</a>';
-$hesklang['notify10']='Bagi memudahkan anda, kami menyediakan pautan kepada halaman Soalan Lazim di atas untuk soalan-soalan yang sering ditanyakan.';
+$hesklang['notify10']='Bagi memudahkan anda, kami menyediakan pautan kepada halaman <a href="http://www.jpa.gov.my/index.php?option=com_content&view=category&id=64&Itemid=96">Soalan Lazim</a> di atas untuk soalan-soalan yang sering ditanyakan.';
 
 // DO NOT CHANGE BELOW
 if (!defined('IN_SCRIPT')) die('PHP syntax OK!');

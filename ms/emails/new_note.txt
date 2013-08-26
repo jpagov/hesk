@@ -1,18 +1,17 @@
-Hello,
+Salam 1Malaysia,
 
-A new note has been added to ticket "%%SUBJECT%%" that is currently assigned to you.
+Satu nota baru telah ditambah kepada tiket "%%SUBJECT%%" yang dirujuk kepada anda.
 
-
-Note by %%NAME%%:
+Nota oleh %%NAME%%:
 
 %%MESSAGE%%
 
 
-You can manage this ticket here:
+Anda boleh menguruskan tiket ini di sini:
 %%TRACK_URL%%
 
 
-Regards,
+Sekian, terima kasih.
 
 %%SITE_TITLE%%
 %%SITE_URL%%

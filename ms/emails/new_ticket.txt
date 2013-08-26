@@ -1,18 +1,22 @@
-Dear %%NAME%%,
+Salam 1Malaysia,
 
-Your support ticket "%%SUBJECT%%" has been submitted. We try to reply to all tickets as soon as possible, usually within 24 hours.
+%%NAME%%,
 
-Your tracking ID: %%TRACK_ID%%
+Tiket maklum balas anda, "%%SUBJECT%%" telah dihantar.
 
-You can view the status of your ticket here:
+We reply to all tickets as soon as possible, within 24 to 48 hours. If we expect your ticket will take additional time, we will update you by sending you an email.
+
+Pihak kami membalas semua tiket secepat mungkin, dalam tempoh 24 hingga 48 jam. Kami akan memaklumkan kepada anda melalui emel sekiranya tiket tersebut memerlukan masa untuk dijawab.
+
+ID Tiket Maklum Balas: %%TRACK_ID%%
+
+Anda boleh melihat status tiket anda di sini:
 %%TRACK_URL%%
 
-You will receive an e-mail notification when our staff replies to your ticket.
+Anda akan menerima pemberitahuan e-mel apabila petugas kami membalas tiket anda.
 
-*DO NOT REPLY TO THIS E-MAIL*
-This is an automated e-mail message sent from our support system. Do not reply to this e-mail as we won't receive your reply!
 
-Yours sincerely,
+Sekian, terima kasih.
 
 %%SITE_TITLE%%
 %%SITE_URL%%

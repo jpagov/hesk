@@ -1,15 +1,14 @@
-Dear %%NAME%%,
+Salam 1Malaysia,
 
-Our staff has just replied to your ticket "%%SUBJECT%%"
+%%NAME%%,
 
-You can view the ticket here:
+Petugas maklum balas telah membuat balasan kepada tiket anda dengan subjek "%%SUBJECT%%".
+
+Anda boleh melihat tiket di sini:
 %%TRACK_URL%%
 
 
-*DO NOT REPLY TO THIS E-MAIL*
-This is an automated e-mail message sent from our support system. Do not reply to this e-mail as we won't receive your reply, use the link above for proper communication!
-
-Yours sincerely,
+Sekian, terima kasih.
 
 %%SITE_TITLE%%
 %%SITE_URL%%
