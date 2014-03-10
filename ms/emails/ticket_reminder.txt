@@ -1,0 +1,12 @@
+Salam Transformasi &amp; Salam 1Malaysia,
+
+<i>Peringatan Mesra</i>.
+
+Berikut adalah senarai tiket maklum balas baru melebihi <b>%%REMINDERDAY%% hari</b> yang dirujuk kepada anda dan belum diambil tindakan. Butiran Tiket:
+
+%%REMINDER%%
+
+Sekian, salam hormat dan terima kasih.
+
+%%SITE_TITLE%%
+%%SITE_URL%%
