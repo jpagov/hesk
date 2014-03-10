@@ -6,7 +6,7 @@
 * Author: Klemen Stirn (http://www.hesk.com)
 *
 * !!! This file must be saved in UTF-8 encoding without byte order mark (BOM) !!!
-* Test chars: àáâãäåæ 
+* Test chars: àáâãäåæ
 */
 
 // Change "English" to the name of your language
@@ -31,11 +31,12 @@ $hesklang['category_moved']         = '[#%%TRACK_ID%%] Tiket dipindahkan: %%SUBJ
 $hesklang['new_note']               = '[#%%TRACK_ID%%] Tambah nota: %%SUBJECT%%';
 $hesklang['new_pm']                 = 'Mesej baru: %%SUBJECT%%';
 $hesklang['forgot_ticket_id']       = 'Senarai support tiket anda';
+$hesklang['ticket_reminder'] = 'S1MBa: Peringatan Mesra';
 
 // ERROR MESSAGES
 $hesklang['cant_connect_db']='Tidak dapat disambungkan ke pangkalan data!';
 $hesklang['invalid_action']='Tindakan tidak sah';
-$hesklang['select_username']='Sila masukkan nama pengguna anda';
+$hesklang['select_username']='Sila masukkan nama petugas anda';
 $hesklang['enter_pass']='Sila masukkan katalaluan anda';
 $hesklang['cant_sql']='Tidak boleh mengeksekusi SQL';
 $hesklang['contact_webmsater']='Sila maklumkan kepada pentadbir di';
@@ -67,12 +68,12 @@ $hesklang['cat_not_found']='Kategori tidak ditemui';
 $hesklang['enter_cat_name']='Sila masukkan nama kategori';
 $hesklang['no_cat_id']='Tiada ID Kategori';
 $hesklang['cant_del_default_cat']='Anda tidak boleh memadam kategori utama, anda hanya boleh menukar nama sahaja';
-$hesklang['no_valid_id']='Tiada ID pengguna yang sah';
-$hesklang['user_not_found']='Pengguna tidak ditemui';
-$hesklang['enter_real_name']='Sila masukkan nama sebenar pengguna';
-$hesklang['enter_valid_email']='Sila masukkan email pengguna yang sah';
-$hesklang['enter_username']='Sila masukkan nama pengguna (daftar masuk)';
-$hesklang['asign_one_cat']='Sila berikan pengguna sekurang-kurangnya satu kategori!';
+$hesklang['no_valid_id']='Tiada ID petugas yang sah';
+$hesklang['user_not_found']='Petugas tidak ditemui';
+$hesklang['enter_real_name']='Sila masukkan nama sebenar petugas';
+$hesklang['enter_valid_email']='Sila masukkan email petugas yang sah';
+$hesklang['enter_username']='Sila masukkan nama petugas (daftar masuk)';
+$hesklang['asign_one_cat']='Sila berikan petugas sekurang-kurangnya satu kategori!';
 $hesklang['signature_long']='User signature is too long! Please limit the signature to 255 chars';
 $hesklang['confirm_user_pass']='Sila sahkan katalaluan';
 $hesklang['passwords_not_same']='Katalaluan yang dimasukkan tidak padan!';
@@ -83,12 +84,12 @@ $hesklang['enter_message']='Sila masukkan mesej anda';
 $hesklang['sel_app_cat']='Sila pilih kategori yang sesuai';
 $hesklang['sel_app_priority']='Sila pilih keutamaan yang sesuai';
 $hesklang['enter_ticket_subject']='Sila masukkan subjek tiket anda';
-$hesklang['user_not_found_nothing_edit']='Pengguna tidak ditemuii atau tiada perubahan';
+$hesklang['user_not_found_nothing_edit']='Petugas tidak ditemuii atau tiada perubahan';
 
 // ADMIN PANEL
 $hesklang['administrator']='Administrator';
 $hesklang['login']='Daftar masuk';
-$hesklang['user']='Pengguna';
+$hesklang['user']='Petugas';
 $hesklang['username']='Katanama';
 $hesklang['pass']='Katalaluan';
 $hesklang['confirm_pass']='Pengesahan katalaluan';
@@ -173,8 +174,8 @@ $hesklang['cat_renamed']='Kategori ditukar';
 $hesklang['cat_renamed_to']='Kategori yang dipilih telah berjaya ditukar nama ke';
 $hesklang['cat_removed']='Kategori dihapus';
 $hesklang['cat_removed_db']='Kategori yang dipilih telah berjaya dihapuskan dari pangkalan data';
-$hesklang['sure_remove_user']='Adakah anda pasti hendak menghapus pengguna ini?';
-$hesklang['manage_users']='Pengurusan pengguna';
+$hesklang['sure_remove_user']='Adakah anda pasti hendak menghapus petugas ini?';
+$hesklang['manage_users']='Pengurusan petugas';
 $hesklang['users_intro']='Here you are able to manage users who can login to the admin panel and
 answer tickets. Administrators can view/edit tickets in any category and have access
 to all functions of the admin panel (manage users, manage categories, ...) while
@@ -182,19 +183,19 @@ other users may only view and reply to tickets within their categories.';
 $hesklang['yes']='YA';
 $hesklang['no']='TIDAK';
 $hesklang['edit']='Kemaskini';
-$hesklang['add_user']='Tambah pengguna';
+$hesklang['add_user']='Tambah petugas';
 $hesklang['req_marked_with']='Bidang yang harus diisi ditandai dengan';
 $hesklang['real_name']='Nama penuh';
 $hesklang['signature_max']='Tandatangan (max 255 chars)';
 $hesklang['sign_extra']='Kod HTML tidak dibenarkan. Pautan boleh diklik.';
-$hesklang['create_user']='Tambah pengguna';
-$hesklang['editing_user']='Kemaskini pengguna';
-$hesklang['user_added']='Pengguna ditambah';
-$hesklang['user_added_success']='Pengguna baru %s dengan katalaluan %s telah ditambah';
+$hesklang['create_user']='Tambah petugas';
+$hesklang['editing_user']='Kemaskini petugas';
+$hesklang['user_added']='Petugas ditambah';
+$hesklang['user_added_success']='Petugas baru %s dengan katalaluan %s telah ditambah';
 $hesklang['profile_updated']='Profil dikemaskini';
-$hesklang['profile_updated_success']='Profil pengguna telah berjaya dikemaskini.';
-$hesklang['user_removed']='Pengguna dihapus';
-$hesklang['sel_user_removed']='Pengguna berjaya dihapuskan dari pangkalan data';
+$hesklang['profile_updated_success']='Profil petugas telah berjaya dikemaskini.';
+$hesklang['user_removed']='Petugas dihapus';
+$hesklang['sel_user_removed']='Petugas berjaya dihapuskan dari pangkalan data';
 $hesklang['profile_for']='Profil bagi';
 $hesklang['new_pass']='Katalaluan baru';
 $hesklang['update_profile']='Kemaskini profil';
@@ -203,7 +204,7 @@ $hesklang['profile_updated']='Profil dikemaskini';
 $hesklang['profile_updated_success']='Profil anda telah berjaya dikemaskini';
 $hesklang['view_profile']='Lihat profil';
 $hesklang['new_ticket_submitted']='Tiket sokongan baru telah dihantar';
-$hesklang['user_profile_updated_success']='Profil pengguna ini telah berjaya dikemaskini';
+$hesklang['user_profile_updated_success']='Profil petugas ini telah berjaya dikemaskini';
 $hesklang['printer_friendly']='Printer friendly version';
 $hesklang['end_ticket']='--- End of ticket ---';
 
@@ -237,7 +238,7 @@ $hesklang['wait_cust_reply']='Waiting reply from customer';
 $hesklang['replied']='Dibalas';
 $hesklang['closed']='Selesai';
 $hesklang['last_replier']='Balasan terakhir';
-$hesklang['staff']='Staff';
+$hesklang['staff']='Petugas';
 $hesklang['customer']='Customer';
 $hesklang['close_selected']='Tandakan tiket yang dipilih sebagai Selesai';
 $hesklang['execute']='Execute';
@@ -367,7 +368,7 @@ $hesklang['no_tickets_crit']='No tickets found matching your criteria';
 $hesklang['confirm_execute']='Are you sure you want to continue?';
 $hesklang['legend']='Petunjuk';
 $hesklang['main_page']='Utama';
-$hesklang['menu_users']='Pengguna';
+$hesklang['menu_users']='Petugas';
 $hesklang['menu_cat']='Kategori';
 $hesklang['menu_profile']='Profil';
 $hesklang['menu_kb']='Knowledgebase'; // Admin MENU item
@@ -690,18 +691,18 @@ $hesklang['sa']='Sa';
 $hesklang['su']='Ah';
 $hesklang['from']='Dari';
 $hesklang['cinv']='Tarikh tidak sah';
-$hesklang['cinv2']='Accepted format is mm/dd/yyyy';
+$hesklang['cinv2']='Format tarikh yang diterima adalah mm/dd/yyyy';
 $hesklang['cinm']='Invalid month value';
 $hesklang['cinm2']='Allowed range is';
 $hesklang['cind']='Invalid day of month value';
 $hesklang['cind2']='Allowed range for selected month is';
-$hesklang['month']='Month';
-$hesklang['ocal']='Open Calendar';
-$hesklang['ca01']='Previous Year';
-$hesklang['ca02']='Previous Month';
-$hesklang['ca03']='Next Month';
-$hesklang['ca04']='Next Year';
-$hesklang['ca05']='Close Calendar';
+$hesklang['month']='Bulan';
+$hesklang['ocal']='Buka Kalendar';
+$hesklang['ca01']='Tahun Sebelum';
+$hesklang['ca02']='Bulan Sebelum';
+$hesklang['ca03']='Bulan Selepas';
+$hesklang['ca04']='Tahun Selepas';
+$hesklang['ca05']='Tutup Kalendar';
 $hesklang['cdr']='Pilih tarikh:';
 $hesklang['crt']='Pilih jenis maklum balas:';
 $hesklang['frpt']='Tapis laporan';
@@ -719,10 +720,10 @@ $hesklang['r10']='Tahun ini';
 $hesklang['r11']='Tahun lepas';
 $hesklang['r12']='Sepanjang masa';
 $hesklang['datetofrom']='&quot;Date From&quot; cannot be higher than &quot;Date to&quot;. The dates have been switched.';
-$hesklang['t1']='maklum balas mengikut hari';
-$hesklang['t2']='maklum balas mengikut bulan';
-$hesklang['t3']='maklum balas mengikut pengguna';
-$hesklang['t4']='maklum balas mengikut kategori';
+$hesklang['t1']='Maklum balas mengikut hari';
+$hesklang['t2']='Maklum balas mengikut bulan';
+$hesklang['t3']='Maklum balas mengikut petugas';
+$hesklang['t4']='Maklum balas mengikut kategori';
 $hesklang['ticass']='Assigned tickets';
 $hesklang['ticall']='Replied to tickets';
 $hesklang['totals']='Jumlah';
@@ -845,7 +846,7 @@ $hesklang['sec_enter']='Masukkan nombor yang anda lihat pada gambar dibawah.';
 $hesklang['reload']='Segarkan imej';
 $hesklang['verify_q']='Pencegahan SPAM:'; // For anti-spam question
 $hesklang['verify_i']='Pencegahan SPAM:'; // For anti-spam image (captcha)
-$hesklang['admin_login']='Staff login';
+$hesklang['admin_login']='Petugas login';
 $hesklang['vrfy']='Test passed';
 $hesklang['last_update']='Kemaskini';
 $hesklang['cot']='Don\'t force Critical tickets on top';
@@ -1046,6 +1047,8 @@ $hesklang['conok']='Connection successful!';
 $hesklang['conokn']='However, if your server requires username and password email will not be sent!';
 $hesklang['saving']='Saving settings, please wait...';
 $hesklang['sns']='Settings were saved, but some functions were disabled because of failed tests.';
+$hesklang['em_reminder']= 'Emel Peringatan';
+$hesklang['em_reminder_day']='Hari';
 $hesklang['loops']='Email Loops';
 $hesklang['looph']='Max Hits';
 $hesklang['loopt']='Timeframe';
@@ -1180,6 +1183,8 @@ $hesklang['image_alt_text']='reCAPTCHA challenge image';
 $hesklang['recaptcha_error']='Incorrect SPAM Prevention answer, please try again.';
 
 /* Custom in version 2.5.1 for Public Department Service */
+$hesklang['intro']='Selamat Datang ke Sistem Maklum Balas JPA (S1MBa)';
+$hesklang['intro_desc']='In order to streamline support requests and better serve you, we utilize a support ticket system. Every support request is assigned a unique ticket number which you can use to track the progress and responses online. For your reference we provide complete archives and history of all your support requests. A valid email address is required to submit a ticket.';
 $hesklang['site_title']='Jabatan Perkhidmatan Awam';
 $hesklang['sub_title']='Sistem Maklum Balas JPA';
 $hesklang['notify1']='<strong>Jabatan Perkhidmatan Awam</strong> mengalu-alukan maklum balas, Cadangan dan Pertanyaan mengenai perkara-perkara berikut :-';
@@ -1192,6 +1197,10 @@ $hesklang['notify7']='Perkhidmatan Psikologi, Kaunseling dan Rundingcara';
 $hesklang['notify8']='Hal-hal lain yang berkaitan dengan Fungsi, Peranan, Tanggungjawab dan Perkhidmatan oleh JPA. Sila rujuk <a href="http://www.jpa.gov.my/index.php?option=com_content&amp;view=article&amp;id=246&amp;Itemid=26">Maklumat Korporat</a>, <a href="http://www.jpa.gov.my/index.php?option=com_content&amp;view=article&amp;id=250&amp;Itemid=60">Program-program dan Bahagian-bahagian di JPA</a> untuk kepastian.';
 $hesklang['notify9']='Untuk pertanyaan mengenai prosedur untuk memohon kursus dan program-program latihan INTAN, sila terus ke laman <a href="http://www.intanbk.intan.my">www.intanbk.intan.my</a>';
 $hesklang['notify10']='Bagi memudahkan anda, kami menyediakan pautan kepada halaman <a href="http://www.jpa.gov.my/index.php?option=com_content&view=category&id=64&Itemid=96">Soalan Lazim</a> di atas untuk soalan-soalan yang sering ditanyakan.';
-
+$hesklang['t5']='Maklum balas mengikut jangkaan selesai';
+$hesklang['closed_before']='Sebelum %s hari'; // Ticket has been RESOLVED before $hesk_settings['autoclose']
+$hesklang['closed_after']='Selepas %s hari'; // Ticket has been RESOLVED after $hesk_settings['autoclose']
+$hesklang['closed_after_3']='%s - %s hari'; // Ticket has been RESOLVED after $hesk_settings['autoclose']
+$hesklang['email_ban_1']='Kami mengesyorkan supaya tidak menggunakan emel @1govuc.gov.my kerana polisi email tersebut mendefinasikan notifikasi Sistem Maklum Balas sebagai Spam yang mana pihak kami gagal menghantar emel pemakluman.';
 // DO NOT CHANGE BELOW
 if (!defined('IN_SCRIPT')) die('PHP syntax OK!');
