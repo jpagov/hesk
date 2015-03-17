@@ -1,13 +1,12 @@
-Salam 1Malaysia,
-
-Dear %%NAME%%,
-
-E-mel ini mengandungi senarai tiket sokongan dikemukakan dengan alamat emel anda. Bilangan tiket sokongan ditemui: %%NUM%%
-
-%%LIST_TICKETS%%
-
-
-Sekian, terima kasih.
-
-%%SITE_TITLE%%
+Salam 1Malaysia,
+
+Kepada %%NAME%%,
+
+E-mel ini mengandungi senarai tiket sokongan dikemukakan dengan alamat emel anda. Bilangan tiket sokongan ditemui: %%NUM%%
+
+%%LIST_TICKETS%%
+
+Sekian, terima kasih.
+
+%%SITE_TITLE%%
 %%SITE_URL%%

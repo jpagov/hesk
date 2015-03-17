@@ -1,14 +1,14 @@
-Salam 1Malaysia,
-
-%%NAME%%,
-
-Petugas maklum balas telah membuat balasan kepada tiket anda dengan subjek "%%SUBJECT%%".
-
-Anda boleh melihat tiket di sini:
-%%TRACK_URL%%
-
-
-Sekian, terima kasih.
-
-%%SITE_TITLE%%
+Salam 1Malaysia,
+
+%%NAME%%,
+
+Petugas maklum balas telah membuat balasan kepada tiket anda dengan subjek "%%SUBJECT%%".
+
+Anda boleh melihat tiket di sini:
+%%TRACK_URL%%
+
+
+Sekian, terima kasih.
+
+%%SITE_TITLE%%
 %%SITE_URL%%

@@ -1,15 +1,14 @@
-Salam 1Malaysia,
-
-Tiket maklum balas baru telah dipindahkan dibawah kategori seliaan anda. Butiran tiket:
-
-Subjek Tiket: %%SUBJECT%%
-ID tiket: %%TRACK_ID%%
-
-Anda boleh menguruskan tiket tersebut melalui pautan berikut:
-%%TRACK_URL%%
-
-
-Regards,
-
-%%SITE_TITLE%%
+Salam 1Malaysia,
+
+Tiket maklum balas baru telah dipindahkan dibawah kategori seliaan anda. Butiran tiket:
+
+Subjek Tiket: %%SUBJECT%%
+ID tiket: %%TRACK_ID%%
+
+Anda boleh menguruskan tiket tersebut melalui pautan berikut:
+%%TRACK_URL%%
+
+Sekian, terima kasih.
+
+%%SITE_TITLE%%
 %%SITE_URL%%

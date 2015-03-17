@@ -1,18 +1,18 @@
-Salam Transformasi,
-
-%%NAME%%,
-
-Cadangan anda, "%%SUBJECT%%" telah diterima.
-
-Terima kasih atas cadangan yang telah dikemukakan. Segala cadangan amat dihargai bagi membantu kami memantapkan lagi usaha Transformasi Perkhidmatan Awam.
-
-Sekiranya tuan/puan mempunyai cadangan/idea baharu, sila layari pautan berikut:
-%%TRACK_URL%%
-
-ID Tiket: %%TRACK_ID%%
-
-Sekian, terima kasih.
-
-PENERAJU TRANSFORMASI PERKHIDMATAN AWAM
-
+Salam Transformasi,
+
+%%NAME%%,
+
+Cadangan anda, "%%SUBJECT%%" telah diterima.
+
+Terima kasih atas cadangan yang telah dikemukakan. Segala cadangan amat dihargai bagi membantu kami memantapkan lagi usaha Transformasi Perkhidmatan Awam.
+
+Sekiranya tuan/puan mempunyai cadangan/idea baharu, sila layari pautan berikut:
+%%TRACK_URL%%
+
+ID Tiket: %%TRACK_ID%%
+
+Sekian, terima kasih.
+
+PENERAJU TRANSFORMASI PERKHIDMATAN AWAM
+
 %%SITE_TITLE%%

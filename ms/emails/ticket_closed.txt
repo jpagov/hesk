@@ -1,0 +1,16 @@
+Salam 1Malaysia,
+
+Kepada %%NAME%%,
+
+Status tiket anda "%%SUBJECT%%" telah pun dikemaskini kepada "Selesai".
+
+Tiket ID: %%TRACK_ID%%
+
+Anda boleh melihat status tiket anda disini:
+%%TRACK_URL%%
+
+
+Sekian, terima kasih.
+
+%%SITE_TITLE%%
+%%SITE_URL%%

@@ -1,12 +1,12 @@
-Salam 1Malaysia,
-
-Pelanggan telah membuat balasan maklum balas kepada tiket "%%SUBJECT%%".
-
-Anda boleh menguruskan tiket ini di sini:
-%%TRACK_URL%%
-
-
-Sekian, terima kasih.
-
-%%SITE_TITLE%%
+Salam 1Malaysia,
+
+Pelanggan telah membuat balasan maklum balas kepada tiket "%%SUBJECT%%".
+
+Anda boleh menguruskan tiket ini di sini:
+%%TRACK_URL%%
+
+
+Sekian, terima kasih.
+
+%%SITE_TITLE%%
 %%SITE_URL%%
