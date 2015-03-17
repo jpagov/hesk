@@ -225,8 +225,17 @@ $hesklang['view_your_ticket']='Lihat tiket maklum balas anda';
 $hesklang['ticket_submitted']='Tiket dihantar';
 $hesklang['ticket_submitted_success']='Tiket anda telah berjaya dihantar! Sila simpan kod Tiket ID maklum balas berikut';
 $hesklang['ticket_submitted_note_title']='Nota';
-$hesklang['ticket_submitted_note']='Maklum balas anda akan dijawab dalam masa 3 hari bekerja.';
+$hesklang['ticket_submitted_note']='Maklum balas anda akan diteliti dan dijawab dalam tempoh <b>%s hari bekerja</b>.';
 $hesklang['your_ticket']='Tiket anda';
+
+// TRANSFORMATION
+$hesklang['ticket_submitted_transform']='Cadangan dihantar';
+$hesklang['ticket_submitted_success_transform']='Cadangan anda telah berjaya dihantar! Sila simpan kod Tiket ID cadangan berikut';
+$hesklang['ticket_submitted_note_transform']='Terima kasih atas cadangan yang telah dikemukakan. Segala cadangan amat dihargai bagi membantu kami memantapkan lagi usaha Transformasi Perkhidmatan Awam.';
+$hesklang['view_your_ticket_transform']='Lihat cadangan anda';
+$hesklang['tranform_intro']='Bersama Mentransformasikan Perkhidmatan Awam';
+$hesklang['use_form_below_transform']='<i>Lengkapkan borang di bawah ini untuk mengemukakan idea baharu Transformasi Perkhidmatan Awam. Mandatori ditandai dengan</i>';
+$hesklang['ticket_received_transform'] = '[#%%TRACK_ID%%] Idea diterima: %%SUBJECT%%';
 
 // ADDED IN HESK VERSION 0.94
 $hesklang['check_updates']='Make sure you always have installed the latest version of Hesk!';
@@ -549,12 +558,12 @@ $hesklang['cols']='Columns (width)';
 $hesklang['opt2']='Options for this radio button, enter one option per line (each line will create a new radio button value to choose from). You need to enter at least two options!';
 $hesklang['opt3']='Options for this select box, enter one option per line (each line will be a choice your customers can choose from). You need to enter at least two options!';
 $hesklang['atl2']='Enter at least two options (one per line)!';
-$hesklang['notes']='Notes';
+$hesklang['notes']='Nota';
 $hesklang['addnote']='+ Add note';
-$hesklang['noteby']='Note by';
-$hesklang['delnote']='Delete note';
+$hesklang['noteby']='Nota oleh';
+$hesklang['delnote']='Hapus nota';
 $hesklang['noteerr']='Note already deleted or wrong parameters';
-$hesklang['s']='Submit';
+$hesklang['s']='Hantar';
 $hesklang['nhid']='Notes are hidden from customers!';
 $hesklang['delt']='Delete this post';
 $hesklang['edtt']='Edit post';
@@ -565,7 +574,7 @@ $hesklang['repd']='Post deleted';
 $hesklang['repl']='Selected post has been deleted';
 $hesklang['tickets_found']='Search results';
 $hesklang['al']='Admin link';
-$hesklang['ap']='Go to Administration Panel';
+$hesklang['ap']='Panel Petugas Bahagian ';
 $hesklang['dap']='Display a link to admin panel from <a href="../" target="_blank">help desk index</a>';
 $hesklang['q_miss']='Sila lengkapkan soalan anti-SPAM';
 $hesklang['use_q']='Gunakan soalan anti-SPAM';
@@ -635,7 +644,7 @@ $hesklang['unas']='Unassigned';
 $hesklang['assi']='Assign';
 $hesklang['asst']='Assign to';
 $hesklang['asst2']='Rujuk maklum balas ini kepada';
-$hesklang['asss']='Assign to self';
+$hesklang['asss']='Rujuk kepada saya';
 $hesklang['asss2']='Rujuk maklum balas ini kepada saya';
 $hesklang['can_assign_self']='Can assign tickets to self';
 $hesklang['can_assign_others']='Can assign tickets to others';
@@ -645,13 +654,13 @@ $hesklang['tasi']='Owner Assigned';
 $hesklang['tasy']='This ticket has been assigned to you';
 $hesklang['taso']='This ticket has been assigned to the selected user';
 $hesklang['tasy2']='Dirujuk kepada saya';
-$hesklang['taso2']='Assigned to other staff';
+$hesklang['taso2']='Rujuk kepada petugas lain';
 $hesklang['nose']='Select the new Owner';
 $hesklang['onasc']='This owner doesn\'t have access to the selected category.';
 $hesklang['tunasi']='Ticket Unassigned';
 $hesklang['tunasi2']='Ticket is without an owner and ready to be assigned again';
-$hesklang['note']='Note';
-$hesklang['success']='Success';
+$hesklang['note']='Nota';
+$hesklang['success']='Berjaya';
 $hesklang['nyt']='This ticket is assigned to';
 $hesklang['noch']='No changes have been made';
 $hesklang['orch']='Display order has been modified';
@@ -1187,6 +1196,7 @@ $hesklang['intro']='Selamat Datang ke Sistem Maklum Balas JPA (S1MBa)';
 $hesklang['intro_desc']='In order to streamline support requests and better serve you, we utilize a support ticket system. Every support request is assigned a unique ticket number which you can use to track the progress and responses online. For your reference we provide complete archives and history of all your support requests. A valid email address is required to submit a ticket.';
 $hesklang['site_title']='Jabatan Perkhidmatan Awam';
 $hesklang['sub_title']='Sistem Maklum Balas JPA';
+$hesklang['site_desc']='Mengalu-alukan maklum balas, cadangan dan pertanyaan mengenai perkhidmatan awam.';
 $hesklang['notify1']='<strong>Jabatan Perkhidmatan Awam</strong> mengalu-alukan maklum balas, Cadangan dan Pertanyaan mengenai perkara-perkara berikut :-';
 $hesklang['notify2']='<a href="http://www.jpapencen.gov.my/faq.html">Faedah Persaraan dan Pembayaran Pencen (Pencen, Ganjaran, Pencen Terbitan Pencen Tanggungan serta Kemudahan Rawatan dan Perubatan)</a>';
 $hesklang['notify3']='<a href="http://www.jpa.gov.my/index.php?option=com_content&amp;view=category&amp;id=64&amp;Itemid=96">Program Penajaan Pra dan dalam Perkhidmatan (Biasiswa & Pinjaman)</a>';
@@ -1202,5 +1212,10 @@ $hesklang['closed_before']='Sebelum %s hari'; // Ticket has been RESOLVED before
 $hesklang['closed_after']='Selepas %s hari'; // Ticket has been RESOLVED after $hesk_settings['autoclose']
 $hesklang['closed_after_3']='%s - %s hari'; // Ticket has been RESOLVED after $hesk_settings['autoclose']
 $hesklang['email_ban_1']='Kami mengesyorkan supaya tidak menggunakan emel @1govuc.gov.my kerana polisi email tersebut mendefinasikan notifikasi Sistem Maklum Balas sebagai Spam yang mana pihak kami gagal menghantar emel pemakluman.';
+$hesklang['fb_response']='Setiap maklum balas yang diterima akan diteliti dan dijawab dalam tempoh <b>%s hari bekerja</b>.';
+$hesklang['user_guide']='Sila rujuk <a href="http://docs.jpa.gov.my/docs/pelbagai/garispanduan/fb_userguide2010.pdf">Panduan Pengguna (PDF, 1.22MB)</a> untuk bantuan menggunakan sistem ini.';
+
+$hesklang['fb_survey']='<a href="https://docs.google.com/forms/d/1QjgBq4Wx-pL-oePok2dqiOtVYb-iwob7OPOmdciTqIM/viewform">KAJIAN TAHAP KEPUASAN PELANGGAN TERHADAP SISTEM MAKLUMBALAS DI ATAS TALIAN 2014</a>';
+
 // DO NOT CHANGE BELOW
 if (!defined('IN_SCRIPT')) die('PHP syntax OK!');
